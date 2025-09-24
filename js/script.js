@@ -11,5 +11,8 @@ navLinks.forEach(link => {
 
     // Show clicked page
     document.getElementById(targetPage).classList.add("active");
+
+    // Scroll to top when switching pages
+    window.scrollTo(0, 0);
   });
 });
